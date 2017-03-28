@@ -12,8 +12,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/football")
 public class FootballController {
 
-	@RequestMapping(value="/{teamname}", method=RequestMethod.GET)
-    @ResponseBody public String foo(@PathVariable String teamname){
+	@RequestMapping(value = "/{teamname}", method=RequestMethod.GET)
+    @ResponseBody public String foo(@PathVariable String teamname, String name){
+	    //获取请求的参数，需要和链接中的参数名一致
 
 	    //组装JSON返回
         JSONObject jsonObject = new JSONObject();
@@ -21,7 +22,7 @@ public class FootballController {
         jsonObject.put("age", 12);
 
         JSONObject jsonObject1 = new JSONObject();
-        jsonObject1.put("name", "Mary");
+        jsonObject1.put("name", name);
 
         JSONArray jsonArray = new JSONArray();
         jsonArray.add(jsonObject);
