@@ -3,10 +3,7 @@ package pl.cichon.andrzej.springmvcfacelets.controller;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -33,6 +30,9 @@ public class FootballController {
         JSONArray jsonArray = new JSONArray();
         jsonArray.add(jsonObject);
         jsonArray.add(jsonObject1);
+
+        Student student = new Student(name, age);
+//        return student;
 
         return jsonArray.toString();
 	}
