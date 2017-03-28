@@ -11,7 +11,7 @@
     <!-- POM properties: -->
     <properties>
         <spring.version>4.2.0.RELEASE</spring.version>
-        <jsf.version>2.2.14</jsf.version>
+        <jsf.version>2.2.13</jsf.version>
         <aspectj.version>1.6.11</aspectj.version>
         <jetty.port>8090</jetty.port>
         <tomcat.port>8070</tomcat.port>
@@ -73,19 +73,11 @@
         </dependency>
 
         <!-- Spring Faces -->
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.webflow</groupId>-->
-            <!--<artifactId>spring-faces</artifactId>-->
-            <!--<version>2.3.1.RELEASE</version>-->
-        <!--</dependency>-->
-
-        <!-- https://mvnrepository.com/artifact/org.springframework.webflow/spring-faces -->
         <dependency>
             <groupId>org.springframework.webflow</groupId>
             <artifactId>spring-faces</artifactId>
             <version>2.3.4.RELEASE</version>
         </dependency>
-
 
         <!-- JSF -->
         <dependency>
