@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="springmvcfacelets:war exploded">
-    <output-path>$PROJECT_DIR$/target/springmvcfacelets</output-path>
+    <output-path>$PROJECT_DIR$/target/springmvc</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -46,10 +46,11 @@
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
           <element id="library" level="project" name="Maven: javassist:javassist:3.12.1.GA" />
           <element id="library" level="project" name="Maven: javax.annotation:jsr250-api:1.0" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.21" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/springmvcfacelets/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/springmvc/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="springmvcfacelets/web/Web" />
     </root>
