@@ -20,4 +20,12 @@ public class Student {
     public String getName() {
         return name;
     }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
 }

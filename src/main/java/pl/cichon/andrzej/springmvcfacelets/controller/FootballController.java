@@ -6,13 +6,15 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
+import java.util.List;
 
 @Controller
 @RequestMapping("/football")
 public class FootballController {
 
 	@RequestMapping(value = "/{teamname}", method=RequestMethod.GET)
-    @ResponseBody public String foo(@PathVariable String teamname, HttpServletRequest request){
+    @ResponseBody public List<Student> foo(@PathVariable String teamname, HttpServletRequest request){
 	    //获取请求的参数，需要和链接中的参数名一致
         //推荐使用HttpServletRequest的方式来获取参数，GET、POST的参数都可以接收
 
@@ -31,9 +33,14 @@ public class FootballController {
         jsonArray.add(jsonObject);
         jsonArray.add(jsonObject1);
 
-        Student student = new Student(name, age);
-//        return student;
+        List<Student> list = new ArrayList<Student>();
 
-        return jsonArray.toString();
+        Student student = new Student(name, age);
+        Student student1 = new Student(name + name, age + age);
+        list.add(student);
+        list.add(student1);
+        return list;
+
+//        return jsonArray.toString();
 	}
 }
