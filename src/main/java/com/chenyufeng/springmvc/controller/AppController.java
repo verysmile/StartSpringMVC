@@ -16,9 +16,10 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/emp")
 public class AppController {
 
     @Autowired
@@ -27,12 +28,11 @@ public class AppController {
     @Autowired
     MessageSource messageSource;
 
-    @RequestMapping(value = {"/", "/list"}, method = RequestMethod.GET)
-    public String listEmployees(ModelMap model) {
-
+    @ResponseBody
+    @RequestMapping(value = {"/list"}, method = RequestMethod.GET)
+    public List<Employee> listEmployees() {
         List<Employee> employees = service.findAllEmployees();
-        model.addAttribute("employees", employees);
-        return "allemployees";
+        return employees;
     }
 
     @RequestMapping(value = {"/new"}, method = RequestMethod.GET)
