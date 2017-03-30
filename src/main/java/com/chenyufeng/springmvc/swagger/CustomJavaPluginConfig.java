@@ -1,4 +1,4 @@
-package pl.cichon.andrzej.springmvcfacelets.swagger;
+package com.chenyufeng.springmvc.swagger;
 
 import com.mangofactory.swagger.configuration.SpringSwaggerConfig;
 import com.mangofactory.swagger.models.dto.ApiInfo;

@@ -1,4 +1,4 @@
-package pl.cichon.andrzej.springmvcfacelets.common.mvc;
+package com.chenyufeng.springmvc.common.mvc;
 
 import java.io.IOException;
 import java.util.Iterator;

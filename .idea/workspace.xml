@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced087d5-5b24-499e-8b81-ea853941ff6a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_29.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_7_4.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springmvcfacelets.iml" afterPath="$PROJECT_DIR$/springmvc.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/common/mvc/FaceletView.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/common/mvc/FaceletView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/BasketballController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/BasketballController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/FootballController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/FootballController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/Student.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/Student.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/swagger/CustomJavaPluginConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/swagger/CustomJavaPluginConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springmvcfacelets_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springmvcfacelets_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springmvcfacelets.iml" afterPath="$PROJECT_DIR$/springmvcfacelets.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +27,8 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="springmvcfacelets.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmvcfacelets.iml">
+      <file leaf-file-name="springmvc.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springmvc.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1020">
               <caret line="61" column="61" lean-forward="false" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
@@ -47,11 +38,14 @@
         </entry>
       </file>
       <file leaf-file-name="BasketballController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/BasketballController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/BasketballController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-              <folding />
+            <state relative-caret-position="544">
+              <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1230#1239#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,8 +53,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="280" column="21" lean-forward="false" selection-start-line="280" selection-start-column="21" selection-end-line="280" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -77,16 +71,11 @@
         </entry>
       </file>
       <file leaf-file-name="CustomJavaPluginConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/swagger/CustomJavaPluginConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/swagger/CustomJavaPluginConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#2101#2102#0" expanded="false" />
-                <element signature="e#2142#2143#0" expanded="false" />
-                <element signature="e#2211#2212#0" expanded="false" />
-                <element signature="e#2252#2253#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,8 +83,8 @@
       <file leaf-file-name="spring-servlet.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="20" column="66" lean-forward="false" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -151,17 +140,17 @@
         </entry>
       </file>
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
-                <element signature="e#550#551#0" expanded="false" />
-                <element signature="e#577#578#0" expanded="false" />
-                <element signature="e#617#618#0" expanded="false" />
-                <element signature="e#649#650#0" expanded="false" />
-                <element signature="e#743#744#0" expanded="false" />
-                <element signature="e#773#774#0" expanded="false" />
+                <element signature="e#539#540#0" expanded="false" />
+                <element signature="e#566#567#0" expanded="false" />
+                <element signature="e#606#607#0" expanded="false" />
+                <element signature="e#638#639#0" expanded="false" />
+                <element signature="e#732#733#0" expanded="false" />
+                <element signature="e#762#763#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -190,6 +179,7 @@
       <find>jetty</find>
       <find>javassist</find>
       <find>slf4j</find>
+      <find>cichon</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,9 +197,10 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/PlayerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/swagger/CustomJavaPluginConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/FootballController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/BasketballController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/swagger/CustomJavaPluginConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -247,7 +238,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="springmvcfacelets Maven Webapp" />
+          <option name="myItemId" value="springmvc Maven Webapp" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -261,7 +252,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="springmvcfacelets Maven Webapp" />
+          <option name="myItemId" value="springmvc Maven Webapp" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -405,7 +396,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcfacelets" />
+              <option name="myItemId" value="springmvc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -435,7 +426,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcfacelets" />
+              <option name="myItemId" value="springmvc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -465,7 +456,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springmvcfacelets" />
+              <option name="myItemId" value="springmvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1065,12 +1060,12 @@
       <workItem from="1490670081242" duration="10346000" />
       <workItem from="1490706450041" duration="5243000" />
       <workItem from="1490779195052" duration="10235000" />
-      <workItem from="1490856251658" duration="2150000" />
+      <workItem from="1490856251658" duration="3480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45775000" />
+    <option name="totallyTimeSpent" value="47105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="22" width="1920" height="1058" extended-state="6" />
@@ -1097,11 +1092,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1712766" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34468085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22417465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3042553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1109,7 +1105,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19148937" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1129,10 +1124,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/common/mvc/FaceletView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/common/mvc/FaceletView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#afterPropertiesSet#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#renderMergedOutputModel#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#createFacesContext#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#createFacesLifecycle#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#notifyAfterListeners#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#notifyBeforeListeners#0;class#FaceletView#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,29 +1156,38 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/Srtudent.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#577#578#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#649#650#0" expanded="false" />
-            <element signature="e#743#744#0" expanded="false" />
-            <element signature="e#773#774#0" expanded="false" />
+            <element signature="e#539#540#0" expanded="false" />
+            <element signature="e#566#567#0" expanded="false" />
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#732#733#0" expanded="false" />
+            <element signature="e#762#763#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/common/mvc/FaceletView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/common/mvc/FaceletView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="75" column="87" lean-forward="false" selection-start-line="75" selection-start-column="87" selection-end-line="75" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#afterPropertiesSet#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#renderMergedOutputModel#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#createFacesContext#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#createFacesLifecycle#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#notifyAfterListeners#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#notifyBeforeListeners#0;class#FaceletView#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springmvcfacelets.iml">
+    <entry file="file://$PROJECT_DIR$/springmvc.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-591">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1199,7 +1212,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/FootballController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/FootballController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="605">
           <caret line="39" column="67" lean-forward="false" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
@@ -1243,7 +1256,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/FootballController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/FootballController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1253,7 +1266,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/Student.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2193">
@@ -1291,15 +1304,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/common/mvc/FaceletView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/common/mvc/FaceletView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="75" column="87" lean-forward="false" selection-start-line="75" selection-start-column="87" selection-end-line="75" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#afterPropertiesSet#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#renderMergedOutputModel#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#createFacesContext#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#createFacesLifecycle#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#notifyAfterListeners#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#notifyBeforeListeners#0;class#FaceletView#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/FootballController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/FootballController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
@@ -1309,10 +1331,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/common/mvc/FaceletView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/common/mvc/FaceletView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#afterPropertiesSet#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#renderMergedOutputModel#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#createFacesContext#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#createFacesLifecycle#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#notifyAfterListeners#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#notifyBeforeListeners#0;class#FaceletView#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1339,10 +1370,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/Srtudent.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/common/mvc/FaceletView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/common/mvc/FaceletView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="75" column="87" lean-forward="false" selection-start-line="75" selection-start-column="87" selection-end-line="75" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#afterPropertiesSet#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#renderMergedOutputModel#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#createFacesContext#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#createFacesLifecycle#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#notifyAfterListeners#0;class#FaceletView#0" expanded="false" />
+            <element signature="method#notifyBeforeListeners#0;class#FaceletView#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1351,6 +1391,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1371,17 +1412,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#577#578#0" expanded="false" />
-            <element signature="e#617#618#0" expanded="false" />
-            <element signature="e#649#650#0" expanded="false" />
-            <element signature="e#743#744#0" expanded="false" />
-            <element signature="e#773#774#0" expanded="false" />
+            <element signature="e#539#540#0" expanded="false" />
+            <element signature="e#566#567#0" expanded="false" />
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#732#733#0" expanded="false" />
+            <element signature="e#762#763#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1401,14 +1442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1445,20 +1478,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/swagger/CustomJavaPluginConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#2101#2102#0" expanded="false" />
-            <element signature="e#2142#2143#0" expanded="false" />
-            <element signature="e#2211#2212#0" expanded="false" />
-            <element signature="e#2252#2253#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springmvcfacelets.iml">
+    <entry file="file://$PROJECT_DIR$/springmvc.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="61" column="61" lean-forward="false" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
@@ -1466,7 +1486,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/FootballController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/FootballController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
@@ -1476,18 +1496,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/cichon/andrzej/springmvcfacelets/controller/BasketballController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/swagger/CustomJavaPluginConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="66" lean-forward="false" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/BasketballController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1230#1239#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="280" column="21" lean-forward="false" selection-start-line="280" selection-start-column="21" selection-end-line="280" selection-end-column="21" />
+        <state relative-caret-position="289">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding />
         </state>
       </provider>

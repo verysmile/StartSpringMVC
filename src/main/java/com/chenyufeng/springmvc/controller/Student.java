@@ -1,4 +1,4 @@
-package pl.cichon.andrzej.springmvcfacelets.controller;
+package com.chenyufeng.springmvc.controller;
 
 import com.wordnik.swagger.annotations.ApiModel;
 import com.wordnik.swagger.annotations.ApiModelProperty;
