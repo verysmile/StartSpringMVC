@@ -13,9 +13,10 @@
         <spring.version>4.2.0.RELEASE</spring.version>
         <jsf.version>2.2.13</jsf.version>
         <aspectj.version>1.7.4</aspectj.version>
-        <hibernate.version>4.3.5.Final</hibernate.version>>
+        <hibernate.version>4.3.5.Final</hibernate.version>
         <jetty.port>8090</jetty.port>
         <tomcat.port>8070</tomcat.port>
+        <joda-time.version>2.9</joda-time.version>
     </properties>
 
     <!-- Dependencies: -->
@@ -184,8 +185,20 @@
 
         <dependency>
             <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>2.3.1</version>
         </dependency>
 
         <!-- Alibaba FastJSON-->
@@ -278,6 +291,32 @@
             <groupId>org.jboss.logging</groupId>
             <artifactId>jboss-logging</artifactId>
             <version>3.1.3.GA</version>
+        </dependency>
+
+        <!-- Joda-Time -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>${joda-time.version}</version>
+        </dependency>
+
+        <!-- To map JodaTime with database type -->
+        <dependency>
+            <groupId>org.jadira.usertype</groupId>
+            <artifactId>usertype.core</artifactId>
+            <version>5.0.0.GA</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>1.1.0.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>5.1.3.Final</version>
         </dependency>
 
     </dependencies>
