@@ -54,32 +54,21 @@ public class AppController {
         return "success";
     }
 
-    @RequestMapping(value = {"/edit-{ssn}-employee"}, method = RequestMethod.GET)
-    public String editEmployee(@PathVariable String ssn, ModelMap model) {
-        Employee employee = service.findEmployeeBySsn(ssn);
-        model.addAttribute("employee", employee);
-        model.addAttribute("edit", true);
-        return "registration";
-    }
-
+    @ResponseBody
     @RequestMapping(value = {"/edit-{ssn}-employee"}, method = RequestMethod.POST)
-    public String updateEmployee(@Valid Employee employee, BindingResult result,
-                                 ModelMap model, @PathVariable String ssn) {
-
-        if (result.hasErrors()) {
-            return "registration";
-        }
-
-        if (!service.isEmployeeSsnUnique(employee.getId(), employee.getSsn())) {
-            FieldError ssnError = new FieldError("employee", "ssn", messageSource.getMessage("non.unique.ssn", new String[]{employee.getSsn()}, Locale.getDefault()));
-            result.addError(ssnError);
-            return "registration";
-        }
+    public String updateEmployee(@PathVariable String ssn,
+            @ApiParam(value = "用户名", required = true) @RequestParam String name,
+            @ApiParam(value = "日期", required = true) @RequestParam String joiningDate,
+            @ApiParam(value = "薪水", required = true) @RequestParam BigDecimal salary
+    ) {
+        Employee employee = service.findEmployeeBySsn(ssn);
+        employee.setName(name);
+        employee.setJoiningDate(joiningDate);
+        employee.setSalary(salary);
 
         service.updateEmployee(employee);
 
-        model.addAttribute("success", "Employee " + employee.getName() + " updated successfully");
-        return "success";
+        return "success update";
     }
 
     /**
