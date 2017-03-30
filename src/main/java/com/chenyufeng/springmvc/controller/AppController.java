@@ -82,10 +82,15 @@ public class AppController {
         return "success";
     }
 
+    /**
+     * 通过以下的方式可以获得路径中传递的参数，在swagger中也能使用
+     * @param ssn
+     * @return
+     */
+    @ResponseBody
     @RequestMapping(value = {"/delete-{ssn}-employee"}, method = RequestMethod.GET)
     public String deleteEmployee(@PathVariable String ssn) {
         service.deleteEmployeeBySsn(ssn);
-        return "redirect:/list";
+        return "success delete";
     }
-
 }
