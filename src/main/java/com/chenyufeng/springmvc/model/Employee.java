@@ -30,10 +30,8 @@ public class Employee {
     private String name;
 
     @NotNull
-    @DateTimeFormat(pattern = "dd/MM/yyyy")
     @Column(name = "JOINING_DATE", nullable = false)
-    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentLocalDate")
-    private LocalDate joiningDate;
+    private String joiningDate;
 
     @NotNull
     @Digits(integer = 8, fraction = 2)
@@ -60,11 +58,11 @@ public class Employee {
         this.name = name;
     }
 
-    public LocalDate getJoiningDate() {
+    public String getJoiningDate() {
         return joiningDate;
     }
 
-    public void setJoiningDate(LocalDate joiningDate) {
+    public void setJoiningDate(String joiningDate) {
         this.joiningDate = joiningDate;
     }
 

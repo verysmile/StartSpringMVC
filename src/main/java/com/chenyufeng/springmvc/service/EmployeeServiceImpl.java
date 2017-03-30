@@ -25,11 +25,6 @@ public class EmployeeServiceImpl implements EmployeeService {
         employeeDao.saveEmployee(employee);
     }
 
-    /*
-    * Since the method is running with Transaction, No need to call hibernate update explicitly.
-    * Just fetch the entity from db and update it with proper values within transaction.
-    * It will be updated in db once transaction ends.
-    */
     @Override
     public void updateEmployee(Employee employee) {
         Employee entity = employeeDao.findById(employee.getId());
