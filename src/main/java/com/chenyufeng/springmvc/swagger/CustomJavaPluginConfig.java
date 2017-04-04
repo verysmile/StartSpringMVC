@@ -43,9 +43,9 @@ public class CustomJavaPluginConfig extends WebMvcConfigurerAdapter {
     }
 
     private ApiInfo apiInfo() {
-        ApiInfo apiInfo = new ApiInfo("小雷移动端API接口平台",
-                "提供详细的后台所有Restful接口", "http://blog.csdn.net/FansUnion",
-                "FansUnion@qq.com", "小雷博客", "http://blog.csdn.net/FansUnion");
+        ApiInfo apiInfo = new ApiInfo("我的RESTful接口平台",
+                "提供详细的后台所有Restful接口", "http://blog.csdn.net/chenyufeng1991",
+                "yufengcode@gmail.com", "乞力马扎罗的雪-博客", "http://blog.csdn.net/chenyufeng1991");
         return apiInfo;
     }
 
