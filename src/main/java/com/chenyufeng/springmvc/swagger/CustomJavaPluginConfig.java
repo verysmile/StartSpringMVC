@@ -27,11 +27,6 @@ public class CustomJavaPluginConfig extends WebMvcConfigurerAdapter {
         this.springSwaggerConfig = springSwaggerConfig;
     }
 
-    /**
-     * 链式编程 来定制API样式 后续会加上分组信息
-     *
-     * @return
-     */
     @Bean
     public SwaggerSpringMvcPlugin customImplementation() {
         return new SwaggerSpringMvcPlugin(this.springSwaggerConfig)
