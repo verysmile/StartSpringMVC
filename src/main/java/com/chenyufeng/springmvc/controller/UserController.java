@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.List;
+
 /**
  * by chenyufeng on 2017/4/26 .
  */
@@ -41,5 +43,13 @@ public class UserController {
         userService.saveUser(user);
 
         return "success";
+    }
+
+    @ApiOperation(value = "所有用户", notes = "用户", httpMethod = "GET", produces = MediaType.APPLICATION_JSON_VALUE)
+    @ResponseBody
+    @RequestMapping(value = {"/list"}, method = RequestMethod.GET)
+    public List<User> listUser() {
+        List<User> users = userService.findAllUsers();
+        return users;
     }
 }
