@@ -62,4 +62,14 @@ public class UserController {
         userService.deleteUserById(id);
         return "success delete";
     }
+
+    @ApiOperation(value = "根据用户名删除用户", notes = "用户", httpMethod = "POST", produces = MediaType.APPLICATION_JSON_VALUE)
+    @ResponseBody
+    @RequestMapping(value = {"/deleteUserByUsername"}, method = RequestMethod.POST)
+    public String deleteUserByUsername(
+            @ApiParam(value = "用户名", required = true) @RequestParam String username
+    ) {
+        userService.deleteUserByUsername(username);
+        return "success delete";
+    }
 }
