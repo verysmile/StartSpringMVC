@@ -52,4 +52,14 @@ public class UserController {
         List<User> users = userService.findAllUsers();
         return users;
     }
+
+    @ApiOperation(value = "根据Id删除用户", notes = "用户", httpMethod = "POST", produces = MediaType.APPLICATION_JSON_VALUE)
+    @ResponseBody
+    @RequestMapping(value = {"/deleteUserById"}, method = RequestMethod.POST)
+    public String deleteUserById(
+            @ApiParam(value = "Id", required = true) @RequestParam int id
+    ) {
+        userService.deleteUserById(id);
+        return "success delete";
+    }
 }
