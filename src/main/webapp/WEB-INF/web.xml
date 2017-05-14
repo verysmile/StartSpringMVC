@@ -23,14 +23,23 @@
     <url-pattern>*.woff</url-pattern>
   </servlet-mapping>
   
-    <context-param>
-	    <param-name>contextConfigLocation</param-name>
-	    <param-value>
-		          /WEB-INF/spring-servlet.xml    
-	    </param-value>
-	</context-param>
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>/WEB-INF/spring-servlet.xml</param-value>
+  </context-param>
   
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-</listener>
+  </listener>
+
+    <!--以下获取的是Tomcat服务器的bin目录，然后在bin目录中创建test.webapp目录-->
+
+    <!--<context-param>-->
+    <!--<param-name>webAppRootKey</param-name>-->
+    <!--<param-value>test.webapp</param-value>-->
+    <!--</context-param>-->
+    <!--<listener>-->
+    <!--<listener-class>org.springframework.web.util.WebAppRootListener</listener-class>-->
+    <!--</listener>-->
+
 </web-app>

@@ -3,6 +3,7 @@ package com.chenyufeng.springmvc.controller;
 import com.wordnik.swagger.annotations.Api;
 import com.wordnik.swagger.annotations.ApiOperation;
 import com.wordnik.swagger.annotations.ApiParam;
+import org.apache.log4j.Logger;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -18,6 +19,9 @@ import java.util.List;
 @Controller
 @RequestMapping("basketball")
 public class BasketballController {
+
+    private static Logger logger = Logger.getLogger(BasketballController.class);
+
     @ApiOperation(value = "用户列表", notes = "列表", httpMethod = "GET", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     @RequestMapping(value = "list", method = RequestMethod.GET)
@@ -34,6 +38,13 @@ public class BasketballController {
         return list;
     }
 
+    /**
+     * 在该方法中测试log4j
+     *
+     * @param teamname
+     * @param request
+     * @return
+     */
     @RequestMapping(value = "v1.0/new/{teamname}", method = RequestMethod.GET)
     @ResponseBody public String foo4(@PathVariable String teamname, HttpServletRequest request) {
 
@@ -44,6 +55,11 @@ public class BasketballController {
         String age = request.getParameter("age");
 
         Student student = new Student(name, age);
+
+        //测试log4j
+        logger.debug("This is debug message");
+        logger.info("This is info message");
+        logger.error("This is error message");
 
         return "123456";
     }
