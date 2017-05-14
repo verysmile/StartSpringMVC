@@ -4,6 +4,8 @@ import com.wordnik.swagger.annotations.Api;
 import com.wordnik.swagger.annotations.ApiOperation;
 import com.wordnik.swagger.annotations.ApiParam;
 import org.apache.log4j.Logger;
+import org.apache.log4j.MDC;
+import org.apache.log4j.NDC;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -56,10 +58,20 @@ public class BasketballController {
 
         Student student = new Student(name, age);
 
+        //使用这种可以获得IP等其他信息放到log4j中，然后进行打印
+        String remoteAddr = request.getRemoteAddr();
+        NDC.push("NDC:" + remoteAddr);
+        MDC.put("ip", "MDC:" + remoteAddr);
+
         //测试log4j
         logger.debug("This is debug message");
         logger.info("This is info message");
         logger.error("This is error message");
+
+        NDC.pop();
+        NDC.remove();
+
+        MDC.remove("ip");
 
         return "123456";
     }
