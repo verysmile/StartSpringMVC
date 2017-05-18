@@ -1569,7 +1569,7 @@ Changelog:
  - switched from GPL to BSD license
 
 2007.10.21 - 0.4:
- - unit test and patch (David Baird)
+ - unit concurrent and patch (David Baird)
 
 2007.09.17 - 0.3:
  - bug fix: no longer throws exception on empty paramenters (Hans Pufal)
