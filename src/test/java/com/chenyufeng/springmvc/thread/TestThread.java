@@ -4,6 +4,8 @@ package com.chenyufeng.springmvc.thread;
  * by chenyufeng on 2017/5/18 .
  */
 
+import org.junit.Test;
+
 /**
  * Java多线程，继承Thread类，重写该类的run方法
  */
@@ -19,6 +21,20 @@ public class TestThread {
             }
         }
     }
+
+    /**
+     * Thread匿名子类
+     */
+    @Test
+    public void testAnonymousThread() {
+        Thread thread = new Thread() {
+            @Override
+            public void run() {
+                System.out.println("running");
+            }
+        };
+        thread.start();
+    }
 }
 
 class MyThread extends Thread {
@@ -32,3 +48,6 @@ class MyThread extends Thread {
         }
     }
 }
+
+
+

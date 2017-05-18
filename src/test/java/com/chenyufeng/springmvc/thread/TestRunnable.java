@@ -4,6 +4,8 @@ package com.chenyufeng.springmvc.thread;
  * by chenyufeng on 2017/5/18 .
  */
 
+import org.junit.Test;
+
 /**
  * 实现Runnable接口，并重写该接口的run()方法。
  * Thread对象才是真正的线程对象。
@@ -21,6 +23,22 @@ public class TestRunnable {
                 thread2.start();
             }
         }
+    }
+
+    /**
+     * Runnable的匿名类
+     */
+    @Test
+    public void testAnonymousRunnable() {
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("Running");
+            }
+        };
+
+        Thread thread = new Thread(runnable);
+        thread.start();
     }
 }
 
