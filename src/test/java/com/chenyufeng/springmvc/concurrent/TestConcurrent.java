@@ -54,6 +54,7 @@ public class TestConcurrent {
 
     /**
      * 静态方法的锁，以下两者效果相同
+     * 静态方法的同步是指同步在该方法所在的类对象上，因为Java虚拟机中一个类只能对应一个类对象，所以同时只允许一个线程执行同一个类中的静态同步方法。
      */
     public synchronized static void print04() {
 
