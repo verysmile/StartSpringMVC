@@ -157,7 +157,7 @@
     if (this.isBuilt)
       return this;
     var _this = this;
-    this.progress('fetching resource list: ' + this.url);
+    this.progress('fetching resource collection: ' + this.url);
     var obj = {
       useJQuery: this.useJQuery,
       url: this.url,

@@ -332,7 +332,7 @@ var SwaggerClient = function(url, options) {
 
 SwaggerClient.prototype.build = function() {
   var self = this;
-  this.progress('fetching resource list: ' + this.url);
+  this.progress('fetching resource collection: ' + this.url);
   var obj = {
     useJQuery: this.useJQuery,
     url: this.url,
@@ -593,7 +593,7 @@ var Operation = function(parent, operationId, httpMethod, path, args, definition
       }
     }
     if(param.type === 'array' && typeof param.allowableValues === 'undefined') {
-      // can't show as a list if no values to select from
+      // can't show as a collection if no values to select from
       delete param.isList;
       delete param.allowMultiple;
     }
