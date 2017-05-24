@@ -2,10 +2,7 @@ package com.chenyufeng.springmvc.collection;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
@@ -34,6 +31,9 @@ public class TestHashMapTraverse {
         }
     }
 
+    /**
+     * 测试HashMap的变量；以及List元素的删除
+     */
     @Test
     public void testHashMap_List() {
 
@@ -75,6 +75,9 @@ public class TestHashMapTraverse {
         }
     }
 
+    /**
+     * 测试ConcurrentHashMap的遍历；以及删除ConcurrentLinkedQueue中的元素
+     */
     @Test
     public void testConcurrentHashMap_ConcurrentLinkedQueue() {
         String aaa = "aaa";
@@ -118,6 +121,24 @@ public class TestHashMapTraverse {
 
         for (ConcurrentLinkedQueue<String> queue : concurrentHashMap.values()) {
             System.out.println("值：" + queue);
+        }
+    }
+
+    /**
+     * 测试Hashmap中根据"值"删除键值对，如果有多个匹配，则只能删除一个键值对
+     */
+    @Test
+    public void testRemoveElementFromValue() {
+        Map<Integer, String>map = new HashMap<Integer, String>();
+        map.put(1, "aaa");
+        map.put(2, "bbb");
+        map.put(3, "aaa");
+
+        Collection<String> collection = map.values();
+        collection.remove("aaa");
+
+        for (Integer integer : map.keySet()) {
+            System.out.println(integer);
         }
     }
 
