@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced087d5-5b24-499e-8b81-ea853941ff6a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/collection/TestHashMapTraverse.java" afterPath="$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/collection/TestHashMapTraverse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/collection/TestConcurrentLinkedQueue.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestHashMapTraverse.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestHashMapTraverse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/collection/TestHashMapTraverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            <state relative-caret-position="478">
+              <caret line="52" column="48" lean-forward="true" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#394#411#0" expanded="true" />
@@ -92,32 +92,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TestConcurrentLinkedQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/collection/TestConcurrentLinkedQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#347#355#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
               <caret line="259" column="6" lean-forward="false" selection-start-line="259" selection-start-column="6" selection-end-line="259" selection-end-column="6" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/controller/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#539#540#0" expanded="false" />
-                <element signature="e#566#567#0" expanded="false" />
-                <element signature="e#606#607#0" expanded="false" />
-                <element signature="e#638#639#0" expanded="false" />
-                <element signature="e#668#669#0" expanded="false" />
-                <element signature="e#694#695#0" expanded="false" />
-                <element signature="e#732#733#0" expanded="false" />
-                <element signature="e#762#763#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -298,6 +291,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/collection/TestListTraverse.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/collection/TestHashMapTraverse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/collection/TestConcurrentLinkedQueue.java" />
       </list>
     </option>
   </component>
@@ -770,33 +764,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestHashMapTraverse.testRemoveElementFromValue">
-    <configuration default="false" name="TestListTraverse.testListTraverse1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.chenyufeng.springmvc.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springmvc" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.chenyufeng.springmvc.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.chenyufeng.springmvc.collection.TestListTraverse" />
-      <option name="METHOD_NAME" value="testListTraverse1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestConcurrentLinkedQueue.testConcurrentLinkedQueue">
     <configuration default="false" name="TestHashMapTraverse.testHashMapTraverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -888,6 +856,32 @@
       <option name="PACKAGE_NAME" value="com.chenyufeng.springmvc.collection" />
       <option name="MAIN_CLASS_NAME" value="com.chenyufeng.springmvc.collection.TestHashMapTraverse" />
       <option name="METHOD_NAME" value="testRemoveElementFromValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestConcurrentLinkedQueue.testConcurrentLinkedQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.chenyufeng.springmvc.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springmvc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.chenyufeng.springmvc.collection" />
+      <option name="MAIN_CLASS_NAME" value="com.chenyufeng.springmvc.collection.TestConcurrentLinkedQueue" />
+      <option name="METHOD_NAME" value="testConcurrentLinkedQueue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1454,19 +1448,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.myTomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestListTraverse.testListTraverse1" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testHashMapTraverse" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testHashMap_List" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testConcurrentHashMap_ConcurrentLinkedQueue" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testRemoveElementFromValue" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testHashMapTraverse" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testHashMap_List" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testConcurrentHashMap_ConcurrentLinkedQueue" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testRemoveElementFromValue" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestConcurrentLinkedQueue.testConcurrentLinkedQueue" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testRemoveElementFromValue" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testConcurrentHashMap_ConcurrentLinkedQueue" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testHashMap_List" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testHashMapTraverse" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestListTraverse.testListTraverse1" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestConcurrentLinkedQueue.testConcurrentLinkedQueue" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testRemoveElementFromValue" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testConcurrentHashMap_ConcurrentLinkedQueue" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testHashMap_List" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestHashMapTraverse.testHashMapTraverse" />
       </list>
     </recent_temporary>
   </component>
@@ -1511,11 +1505,14 @@
       <workItem from="1495458322301" duration="3693000" />
       <workItem from="1495522624798" duration="16000" />
       <workItem from="1495592408864" duration="5837000" />
-      <workItem from="1495617035595" duration="4951000" />
+      <workItem from="1495617035595" duration="6068000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="TestConcurrentLinkedQueue_testConcurrentLinkedQueue - 2017.05.24 at 21h 29m 42s.xml">
+      <configuration name="TestConcurrentLinkedQueue.testConcurrentLinkedQueue" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TestHashMapTraverse_testConcurrentHashMap_ConcurrentLinkedQueue - 2017.05.24 at 19h 18m 44s.xml">
       <configuration name="TestHashMapTraverse.testConcurrentHashMap_ConcurrentLinkedQueue" configurationId="JUnit" />
     </history-entry>
@@ -1540,15 +1537,12 @@
     <history-entry file="TestHashMapTraverse_testRemoveElementFromValue - 2017.05.24 at 20h 31m 03s.xml">
       <configuration name="TestHashMapTraverse.testRemoveElementFromValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTimerTask_task1 - 2017.05.18 at 16h 01m 58s.xml">
-      <configuration name="TestTimerTask.task1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestTimerTask_task1 - 2017.05.18 at 16h 02m 12s.xml">
       <configuration name="TestTimerTask.task1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137697000" />
+    <option name="totallyTimeSpent" value="138814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1583,7 +1577,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25212765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1662,7 +1656,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dbSchema.sqf" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenyufeng/springmvc/common/mvc/FaceletView.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/dbSchema.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -2047,8 +2040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/collection/TestHashMapTraverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        <state relative-caret-position="478">
+          <caret line="52" column="48" lean-forward="true" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#394#411#0" expanded="true" />
@@ -2059,6 +2052,17 @@
             <element signature="e#2145#2153#0" expanded="true" />
             <element signature="e#2255#2263#0" expanded="true" />
             <element signature="e#3562#3579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/collection/TestConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#355#0" expanded="true" />
           </folding>
         </state>
       </provider>
