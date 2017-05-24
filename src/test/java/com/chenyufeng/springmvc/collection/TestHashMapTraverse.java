@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
  * by chenyufeng on 2017/5/24 .
@@ -71,6 +73,55 @@ public class TestHashMapTraverse {
         for (List<String> list : map.values()) {
             System.out.println("值：" + list);
         }
-
     }
+
+    @Test
+    public void testConcurrentHashMap_ConcurrentLinkedQueue() {
+        String aaa = "aaa";
+        String bbb = "bbb";
+        ConcurrentHashMap<Integer, ConcurrentLinkedQueue<String>> concurrentHashMap = new ConcurrentHashMap<Integer, ConcurrentLinkedQueue<String>>();
+
+        ConcurrentLinkedQueue<String> queue1 = new ConcurrentLinkedQueue<String>();
+        queue1.add(aaa);
+
+        ConcurrentLinkedQueue<String> queue2 = new ConcurrentLinkedQueue<String>();
+        queue2.add(bbb);
+
+        concurrentHashMap.put(1, queue1);
+        concurrentHashMap.put(2, queue2);
+
+        for (Integer integer : concurrentHashMap.keySet()) {
+            System.out.println("键：" + integer);
+        }
+
+        for (ConcurrentLinkedQueue<String> queue : concurrentHashMap.values()) {
+            System.out.println("值：" + queue);
+        }
+
+        //只是删除列表中的一个值，使列表为空，但是对于map键值对并没有删除
+        queue1.remove(aaa);
+        System.out.println("=======================");
+        for (Integer integer : concurrentHashMap.keySet()) {
+            System.out.println("键：" + integer);
+        }
+
+        for (ConcurrentLinkedQueue<String> queue : concurrentHashMap.values()) {
+            System.out.println("值：" + queue);
+        }
+
+        //删除键为1的键值对
+        concurrentHashMap.remove(1);
+        System.out.println("=======================");
+        for (Integer integer : concurrentHashMap.keySet()) {
+            System.out.println("键：" + integer);
+        }
+
+        for (ConcurrentLinkedQueue<String> queue : concurrentHashMap.values()) {
+            System.out.println("值：" + queue);
+        }
+    }
+
+
+
+
 }
