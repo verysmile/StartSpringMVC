@@ -82,4 +82,26 @@ public class TestDouble {
         System.out.println("3.05");
         System.out.println(new BigDecimal("3.04999999999999982236431605997495353221893310546875"));
     }
+
+    /**
+     * double对数据的处理，默认都会加一个小数点。整型的话会加一个.0
+     */
+    @Test
+    public void testBigDecimal_zero() {
+
+        BigDecimal bigDecimal = new BigDecimal(2);
+        BigDecimal bigDecimal1 = new BigDecimal(2.0);
+        BigDecimal bigDecimal2 = new BigDecimal(2.00);
+        System.out.println(bigDecimal);
+        System.out.println(bigDecimal1);
+        System.out.println(bigDecimal2);
+
+        double double1 = 2;
+        double double2 = 2.0;
+        double double3 = 2.00;
+        System.out.println(double1);
+        System.out.println(double2);
+        System.out.println(double3);
+
+    }
 }

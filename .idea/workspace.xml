@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ced087d5-5b24-499e-8b81-ea853941ff6a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/element/TestDouble.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/element/TestDouble.java" afterPath="$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/element/TestDouble.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,8 +131,8 @@
       <file leaf-file-name="TestDouble.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/element/TestDouble.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="168">
+              <caret line="86" column="41" lean-forward="false" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -645,33 +644,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDouble.testDouble0_5">
-    <configuration default="false" name="TestConcurrentLinkedQueue.testConcurrentLinkedQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.chenyufeng.springmvc.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springmvc" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.chenyufeng.springmvc.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.chenyufeng.springmvc.collection.TestConcurrentLinkedQueue" />
-      <option name="METHOD_NAME" value="testConcurrentLinkedQueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestDouble.testBigDecimal_zero">
     <configuration default="false" name="TestDouble.testBigDecimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -763,6 +736,32 @@
       <option name="PACKAGE_NAME" value="com.chenyufeng.springmvc.element" />
       <option name="MAIN_CLASS_NAME" value="com.chenyufeng.springmvc.element.TestDouble" />
       <option name="METHOD_NAME" value="testDouble0_5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestDouble.testBigDecimal_zero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.chenyufeng.springmvc.element.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springmvc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.chenyufeng.springmvc.element" />
+      <option name="MAIN_CLASS_NAME" value="com.chenyufeng.springmvc.element.TestDouble" />
+      <option name="METHOD_NAME" value="testBigDecimal_zero" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1329,19 +1328,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.myTomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestConcurrentLinkedQueue.testConcurrentLinkedQueue" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestDouble.testBigDecimal" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestDouble.testDoubleCompare" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestDouble.testDouble" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TestDouble.testDouble0_5" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestDouble.testBigDecimal" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestDouble.testDoubleCompare" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestDouble.testDouble" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestDouble.testDouble0_5" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestDouble.testBigDecimal_zero" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestDouble.testDouble0_5" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestDouble.testDouble" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestDouble.testDoubleCompare" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestDouble.testBigDecimal" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestConcurrentLinkedQueue.testConcurrentLinkedQueue" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestDouble.testBigDecimal_zero" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestDouble.testDouble0_5" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestDouble.testDouble" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestDouble.testDoubleCompare" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestDouble.testBigDecimal" />
       </list>
     </recent_temporary>
   </component>
@@ -1387,7 +1386,7 @@
       <workItem from="1495522624798" duration="16000" />
       <workItem from="1495592408864" duration="5837000" />
       <workItem from="1495617035595" duration="7374000" />
-      <workItem from="1495711887813" duration="2529000" />
+      <workItem from="1495711887813" duration="3289000" />
     </task>
     <servers />
   </component>
@@ -1397,6 +1396,9 @@
     </history-entry>
     <history-entry file="TestDouble_testBigDecimal - 2017.05.25 at 19h 38m 21s.xml">
       <configuration name="TestDouble.testBigDecimal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDouble_testBigDecimal_zero - 2017.05.25 at 20h 20m 43s.xml">
+      <configuration name="TestDouble.testBigDecimal_zero" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestDouble_testDouble - 2017.05.25 at 19h 51m 46s.xml">
       <configuration name="TestDouble.testDouble" configurationId="JUnit" />
@@ -1413,9 +1415,6 @@
     <history-entry file="TestDouble_testDoubleCompare - 2017.05.25 at 19h 41m 11s.xml">
       <configuration name="TestDouble.testDoubleCompare" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestHashMapTraverse_testHashMap_List - 2017.05.24 at 19h 07m 59s.xml">
-      <configuration name="TestHashMapTraverse.testHashMap_List" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestHashMapTraverse_testRemoveElementFromValue - 2017.05.24 at 20h 30m 05s.xml">
       <configuration name="TestHashMapTraverse.testRemoveElementFromValue" configurationId="JUnit" />
     </history-entry>
@@ -1424,7 +1423,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142649000" />
+    <option name="totallyTimeSpent" value="143409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1436,7 +1435,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="22" width="1920" height="1058" extended-state="6" />
+    <frame x="1280" y="22" width="1920" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1452,14 +1451,14 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23829788" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23723404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23723404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1528,8 +1527,20 @@
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/element/TestDouble.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/element/TestDouble.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1938,8 +1949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/chenyufeng/springmvc/element/TestDouble.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="168">
+          <caret line="86" column="41" lean-forward="false" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
