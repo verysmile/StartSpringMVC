@@ -48,4 +48,30 @@ public class TestException {
     public void testExcep2() throws Exception {
         testCallBaseparams();
     }
+
+    /**
+     * 测试自定义异常
+     */
+    public void test001() throws ValidationException {
+        int a = 0;
+        if(a == 0) {
+            throw new ValidationException(BaseResult.Code.FAIL, "输入参数不能为0");
+        }
+    }
+
+    @Test
+    public void testCustomException01() throws ValidationException {
+        test001();
+    }
+
+    @Test
+    public void testCustomException02() {
+        try {
+            test001();
+        } catch (ValidationException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 }
