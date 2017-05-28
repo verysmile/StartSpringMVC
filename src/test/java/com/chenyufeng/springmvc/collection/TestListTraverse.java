@@ -2,6 +2,7 @@ package com.chenyufeng.springmvc.collection;
 
 import org.junit.Test;
 
+import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -64,5 +65,25 @@ public class TestListTraverse {
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
+    }
+
+    /**
+     * 判断List遍历如果为NULL时是否会抛出异常;
+     * 如果被遍历的List为空，则会抛出空指针异常，所以需要被初始化；
+     *
+     * 所以最好能进行异常处理
+     */
+    @Test
+    public void testListIsNull() {
+
+        List<String> list = null; //这里需要被初始化
+        try {
+            for (String s : list) {
+                System.out.println(s);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 }
