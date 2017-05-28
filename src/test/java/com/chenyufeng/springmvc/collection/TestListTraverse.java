@@ -72,11 +72,13 @@ public class TestListTraverse {
      * 如果被遍历的List为空，则会抛出空指针异常，所以需要被初始化；
      *
      * 所以最好能进行异常处理
+     *
+     * 遍历的List=null与List.size()=0是两种不同的情况；
      */
     @Test
     public void testListIsNull() {
 
-        List<String> list = null; //这里需要被初始化
+        List<String> list = new ArrayList<String>(); //这里需要被初始化
         try {
             for (String s : list) {
                 System.out.println(s);
