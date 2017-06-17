@@ -1,7 +1,8 @@
-package com.chenyufeng.springmvc.service;
+package com.chenyufeng.springmvc.service.Impl;
 
 import com.chenyufeng.springmvc.dao.UserDao;
 import com.chenyufeng.springmvc.model.User;
+import com.chenyufeng.springmvc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

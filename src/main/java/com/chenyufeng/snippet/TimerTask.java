@@ -1,4 +1,4 @@
-package com.chenyufeng.springmvc.service;
+package com.chenyufeng.snippet;
 
 import org.apache.log4j.Logger;
 import org.springframework.scheduling.annotation.Scheduled;

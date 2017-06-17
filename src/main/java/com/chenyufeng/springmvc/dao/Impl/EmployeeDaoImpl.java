@@ -1,5 +1,7 @@
-package com.chenyufeng.springmvc.dao;
+package com.chenyufeng.springmvc.dao.Impl;
 
+import com.chenyufeng.springmvc.dao.AbstractDao;
+import com.chenyufeng.springmvc.dao.EmployeeDao;
 import com.chenyufeng.springmvc.model.Employee;
 import org.hibernate.Criteria;
 import org.hibernate.Query;

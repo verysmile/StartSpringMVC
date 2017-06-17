@@ -1,5 +1,7 @@
-package com.chenyufeng.springmvc.dao;
+package com.chenyufeng.springmvc.dao.Impl;
 
+import com.chenyufeng.springmvc.dao.AbstractDao;
+import com.chenyufeng.springmvc.dao.UserDao;
 import com.chenyufeng.springmvc.model.User;
 import org.hibernate.Criteria;
 import org.hibernate.Query;
@@ -12,7 +14,7 @@ import java.util.List;
  * by chenyufeng on 2017/4/26 .
  */
 @Repository("userDao")
-public class UserDaoImpl extends AbstractDao<Integer, User> implements UserDao{
+public class UserDaoImpl extends AbstractDao<Integer, User> implements UserDao {
 
     @Override
     public User findById(int id) {

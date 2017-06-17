@@ -1,7 +1,8 @@
-package com.chenyufeng.springmvc.service;
+package com.chenyufeng.springmvc.service.Impl;
 
 import com.chenyufeng.springmvc.dao.EmployeeDao;
 import com.chenyufeng.springmvc.model.Employee;
+import com.chenyufeng.springmvc.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
