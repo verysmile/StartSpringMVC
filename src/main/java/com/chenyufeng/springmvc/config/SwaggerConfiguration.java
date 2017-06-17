@@ -1,4 +1,4 @@
-package com.chenyufeng.springmvc.swagger;
+package com.chenyufeng.springmvc.config;
 
 import com.mangofactory.swagger.configuration.SpringSwaggerConfig;
 import com.mangofactory.swagger.models.dto.ApiInfo;
@@ -18,7 +18,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 @Configuration
 @EnableWebMvc
 @EnableSwagger
-public class CustomJavaPluginConfig extends WebMvcConfigurerAdapter {
+public class SwaggerConfiguration extends WebMvcConfigurerAdapter {
 
     private SpringSwaggerConfig springSwaggerConfig;
 
