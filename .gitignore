@@ -1,7 +1,24 @@
-/bin
-/target
-/src/main/java/webapp/tmp
-.classpath
-.project
-.settings
-restfinder.log
+# Built application files
+target
+
+
+# Java class files
+*.class
+
+# Log Files
+*.log
+
+# about IDEA and workspace
+*.iml
+.idea
+
+# macOS
+.DS_Store
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
