@@ -23,7 +23,7 @@ public class TimerTask {
         logger.debug("This is debug message");
     }
 
-    @Scheduled(fixedRate = 5000, initialDelay = 60000)
+    @Scheduled(fixedRate = 5000, initialDelay = 6000)
     public void taskCycle2() {
         logger.debug("===============");
     }
