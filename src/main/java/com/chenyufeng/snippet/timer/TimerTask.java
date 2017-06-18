@@ -1,4 +1,4 @@
-package com.chenyufeng.snippet;
+package com.chenyufeng.snippet.timer;
 
 import org.apache.log4j.Logger;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -18,12 +18,12 @@ public class TimerTask {
     private static Logger logger = Logger.getLogger(TimerTask.class);
 
     //可以可以详见cron表达式
-    @Scheduled(cron="0/5 * *  * * ? ")
+    @Scheduled(cron="0/500 * *  * * ? ")
     public void taskCycle() {
         logger.debug("This is debug message");
     }
 
-    @Scheduled(fixedRate = 5000, initialDelay = 6000)
+    @Scheduled(fixedRate = 500000, initialDelay = 600000)
     public void taskCycle2() {
         logger.debug("===============");
     }

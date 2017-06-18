@@ -1,4 +1,4 @@
-package com.chenyufeng.snippet;
+package com.chenyufeng.snippet.servlet;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
