@@ -41,13 +41,22 @@
     <servlet>
         <servlet-name>ServletLife</servlet-name>
         <servlet-class>com.chenyufeng.snippet.servlet.ServletLife</servlet-class>
-
         <!--让servlet在服务器启动的时候就创建，数值越大优先级越低-->
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
         <servlet-name>ServletLife</servlet-name>
         <url-pattern>/ServletLife</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletMultiThread</servlet-name>
+        <servlet-class>com.chenyufeng.snippet.servlet.ServletMultiThread</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletMultiThread</servlet-name>
+        <url-pattern>/ServletMultiThread</url-pattern>
     </servlet-mapping>
 
 
