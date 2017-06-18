@@ -1,37 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
-  <display-name>Archetype Created Web Application</display-name>
-  <servlet>
-    <servlet-name>spring</servlet-name>
-    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-    <load-on-startup>1</load-on-startup>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>spring</servlet-name>
-    <url-pattern>/</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>default</servlet-name>
-    <url-pattern>*.css</url-pattern>
-    <url-pattern>*.gif</url-pattern>
-    <url-pattern>*.jpg</url-pattern>
-    <url-pattern>*.js</url-pattern>
-    <url-pattern>*.png</url-pattern>
-    <url-pattern>*.svg</url-pattern>
-    <url-pattern>*.ttf</url-pattern>
-    <url-pattern>*.txt</url-pattern>
-    <url-pattern>*.woff</url-pattern>
-  </servlet-mapping>
-  
-  <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>/WEB-INF/spring-servlet.xml</param-value>
-  </context-param>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         id="WebApp_ID" version="2.5">
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>spring</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
 
-  <!--注释以下代码，否则项目中的定时任务会执行两次，每个类会被实例化两次-->
-  <!--<listener>-->
+    <servlet-mapping>
+        <servlet-name>spring</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.chenyufeng.snippet.MyServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/MyServlet</url-pattern>
+    </servlet-mapping>
+
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>default</servlet-name>-->
+        <!--<url-pattern>*.css</url-pattern>-->
+        <!--<url-pattern>*.gif</url-pattern>-->
+        <!--<url-pattern>*.jpg</url-pattern>-->
+        <!--<url-pattern>*.js</url-pattern>-->
+        <!--<url-pattern>*.png</url-pattern>-->
+        <!--<url-pattern>*.svg</url-pattern>-->
+        <!--<url-pattern>*.ttf</url-pattern>-->
+        <!--<url-pattern>*.txt</url-pattern>-->
+        <!--<url-pattern>*.woff</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/spring-servlet.xml</param-value>
+    </context-param>
+
+    <!--注释以下代码，否则项目中的定时任务会执行两次，每个类会被实例化两次-->
+    <!--<listener>-->
     <!--<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>-->
-  <!--</listener>-->
+    <!--</listener>-->
 
     <!--以下获取的是Tomcat服务器的bin目录，然后在bin目录中创建test.webapp目录-->
 
