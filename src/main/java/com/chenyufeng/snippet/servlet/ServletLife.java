@@ -33,6 +33,10 @@ public class ServletLife extends HttpServlet{
         System.out.println("3. service方法被调用...");
     }
 
+    /**
+     * 在destroy中关闭或者销毁一个文件系统或者网络资源；
+     * 该方法与init()一样，在servlet中只能被调用一次。
+     */
     @Override
     public void destroy() {
         super.destroy();
