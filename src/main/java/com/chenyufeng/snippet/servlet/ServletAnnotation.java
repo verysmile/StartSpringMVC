@@ -1,6 +1,5 @@
 package com.chenyufeng.snippet.servlet;
 
-import javax.jws.WebService;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -18,7 +17,11 @@ import java.io.IOException;
 public class ServletAnnotation extends HttpServlet{
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.getWriter().append("my third servlet");
+
+        //可以获得发送过来的参数
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
+        response.getWriter().append("username=").append(username).append(";password=").append(password);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
