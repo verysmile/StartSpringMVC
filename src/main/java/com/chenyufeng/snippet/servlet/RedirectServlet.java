@@ -1,6 +1,5 @@
 package com.chenyufeng.snippet.servlet;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,16 +10,19 @@ import java.io.IOException;
 /**
  * by chenyufeng on 2017/6/19 .
  */
-@WebServlet(name = "ForwardServlet", urlPatterns = "/ForwardServlet")
-public class ForwardServlet extends HttpServlet {
+@WebServlet(name = "RedirectServlet", urlPatterns = "/RedirectServlet")
+public class RedirectServlet extends HttpServlet {
 
+    /**
+     * 重定向到另一个servlet
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        /**
-         * 转发请求到另一个Servlet
-         */
-        RequestDispatcher requestDispatcher = getServletContext().getRequestDispatcher("/ForwardServletReceive");
-        requestDispatcher.forward(req, resp);
+        resp.sendRedirect("/springmvc/ForwardServletReceive");
     }
 
     @Override
